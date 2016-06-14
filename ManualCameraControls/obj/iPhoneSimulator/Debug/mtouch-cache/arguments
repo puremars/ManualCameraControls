@@ -1,0 +1,34 @@
+# Version: 9.6.2.4 (cycle6-xi: d8bedd0)
+# [first argument, ignore] # /Users/sean/Downloads/ManualCameraControls/ManualCameraControls/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/bin/mtouch \
+	--cache \
+	/Users/sean/Downloads/ManualCameraControls/ManualCameraControls/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/sean/Downloads/ManualCameraControls/ManualCameraControls/bin/iPhoneSimulator/Debug/ManualCameraControls.app \
+	--executable \
+	ManualCameraControls \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.3 \
+	--targetver \
+	8.0 \
+	--abi=i386 \
+	--symbollist \
+	/Users/sean/Downloads/ManualCameraControls/ManualCameraControls/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/sean/Downloads/ManualCameraControls/ManualCameraControls/bin/iPhoneSimulator/Debug//ManualCameraControls.exe \
